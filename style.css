@@ -1,0 +1,119 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+}
+
+* {
+    font-family: inter;
+}
+
+#my-name {
+    font-size: 5rem;
+    margin-bottom: 0px;
+    color: #373737;
+}
+
+#description {
+    color: #4F4F4F;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+
+#social-logos a{
+    text-decoration: none;
+}
+
+#social-logos img {
+    max-width: 24px;
+    margin-right: 5px;
+}
+
+#self-portrait {
+    width: 30%;
+    height: 30%;
+    min-width: 250px;
+    min-height: 30%;
+    gap: 20px;
+    border-radius: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#blog-posts, #projects {
+    margin-top: 100px;
+}
+
+#blog-posts h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #373737;
+}
+
+#projects h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #373737;
+}
+
+#projects hr{
+    border: 0.5px solid #E9E9E9;
+}
+
+#blog-posts hr{
+    border: 0.5px solid #E9E9E9;
+}
+
+#coming-soon {
+    color: #c9c9c9;
+    text-align: center;
+    font-weight: 300;
+}
+
+.project-img {
+    max-width: 400px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 100%;
+}
+
+.projects-row {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1000px) {
+    header {
+        flex-direction: column-reverse;
+    }
+
+    #my-name {
+        margin-top: 25px;
+        font-size: 2rem;
+    }
+
+    #description {
+        font-size: 0.8rem;
+    }
+
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #blog-posts h2 {
+        font-size: 0.7rem;
+    }
+
+    #projects h2 {
+        font-size: 0.7rem;
+    }
+  }
